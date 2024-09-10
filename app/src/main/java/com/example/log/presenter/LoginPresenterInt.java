@@ -8,9 +8,6 @@ public interface LoginPresenterInt {
         void showLoginError(String message);
     }
 
-    interface Presenter {
-        void login(String username, String password);
-    }
 
     interface Model {
         User getUser(String username, String password);
